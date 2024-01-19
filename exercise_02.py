@@ -4,8 +4,8 @@ first_string = str(input('Enter first String: '))
 second_string = str(input('Enter second String: '))
 
 
-if second_string in first_string:
-  print(second_string)
+if first_string in second_string:
+  print(first_string)
 else:
   print('Suffix not found')
 
