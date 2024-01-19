@@ -5,10 +5,7 @@ second_string = str(input('Enter second String: '))
 
 
 if second_string in first_string:
-    print(second_string)
+  print(second_string)
 else:
-    print('Suffix not found')
-
-    
-    
+  print('Suffix not found')
 
